@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ui_main.HelloController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="316.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="516.0" fitWidth="312.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button" layoutX="78.0" layoutY="214.0" mnemonicParsing="false" onAction="#play" prefHeight="42.0" prefWidth="149.0" style="-fx-background-color: red;" text="START" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
